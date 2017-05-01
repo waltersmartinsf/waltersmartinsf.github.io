@@ -2,9 +2,9 @@
 bg: "me.jpg"
 layout: page
 title: "Sobre"
-crawlertitle: "Scientist, Teacher, Data Scientist"
+crawlertitle: "Astronomer, Teacher, Data Scientist"
 permalink: /sobre/
-summary: "Scientist, Teacher, Data Scientist"
+summary: "Astronomer, Teacher, Data Scientist"
 active: sobre
 ---
 <!--![walter](/images/me_git.jpg)-->
