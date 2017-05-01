@@ -5,21 +5,38 @@
     <description>Aqui vocês poderam encontrar um pouco sobre minha carreira, projetos, textos e meu blog pessoal. Meu nome é Walter Martins Filho, sou astrônomo formado pela Universidade Federal do Rio de Janeiro (2012), mestrado(2015) e doutorado (em processo) pelo Observatório Nacional.
 Here, you will find a little about my career, projects, articles and my personal blog.
 </description>
-    <link>http://waltersmartinsf.github.io/</link>
-    <atom:link href="http://waltersmartinsf.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 01 May 2017 16:45:02 -0300</pubDate>
-    <lastBuildDate>Mon, 01 May 2017 16:45:02 -0300</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 01 May 2017 17:28:11 -0300</pubDate>
+    <lastBuildDate>Mon, 01 May 2017 17:28:11 -0300</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
         <title>Site reformulado</title>
-        <description>&lt;p&gt;Olá pessoal, refiz meu novo site usitilizando Jekyll e GitHub Pages.&lt;/p&gt;
+        <description>&lt;p&gt;Olá pessoal, refiz meu site utilizando-me do &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; e &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Como tive trabalho de refazer, percebi que muito dos comandos tinha esquecido, então vamos escrever manual simples para próxia vez. Inicialmente, escolhi um tema no site &lt;a href=&quot;http://jekyllthemes.org&quot;&gt;Jekyll Themes&lt;/a&gt;. Jekyll é pacote que permite você escrever em texto, usando &lt;a href=&quot;https://pt.wikipedia.org/wiki/Markdown&quot;&gt;Markdow&lt;/a&gt; em grande maioria, e convertendo-o para uma página estática de web. Conhecimentos de HTML, Ruby e algumas vezes Python, permitem explorar ainda mais a facilidade de escrever em texto e com 2 comandos simples transformar seu trabalho em um site da web. A maior parte dos bugs que ocorreram comigo apareceram porque utilizava Ruby como superusuário, o root, do meu computador.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Nunca utilize Ruby ou outro pacote para compilar no Jekyll como superusuári!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Outro detalhe é o uso de aplicações baseadas em Java. Para isto, alguns temas do Jekyll utiliza-se to &lt;a href=&quot;https://nodejs.org/en/&quot;&gt;Node.js&lt;/a&gt;. A instalação para sistemas OSX, da Apple, ou W10, da Microsoft, é extremamente &lt;em&gt;straightforward&lt;/em&gt;. Enquanto que para Ubuntu, tive algumas dores de cabeça na hora de compilar, mas por minha culpa de não perceber que j
+a estava instalado. Próximo requisito é a linguagem de programação &lt;a href=&quot;https://www.ruby-lang.org/pt/&quot;&gt;Ruby&lt;/a&gt;, que provavelmente já está instalada no OSX se o usuário instalou &lt;a href=&quot;https://brew.sh/index_pt-br.html&quot;&gt;Homebrew&lt;/a&gt;. Problema com homebrew e Ruby no windows ou Linux é que em geral você pode instalar direto como superusuário, como dito anteriormente. Encontrei &lt;a href=&quot;https://gorails.com/setup/osx/10.12-sierra&quot;&gt;este manual&lt;/a&gt; em passo-a-passo para criação de ambiente Ruby no seu usuário pessoal e a configuração deste como Ruby global para uso.&lt;/p&gt;
+
+&lt;p&gt;Outro possível requisito é o &lt;a href=&quot;http://bundler.io/&quot;&gt;Bundle&lt;/a&gt;, que gerencia as aplicações Ruby. Se você configurou Ruby como dito anteriormente, a instalação do bundle é simples:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bundler&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Caso esteja utilizando-se de tema pré-definido, fica simples agora. Edita-se os arquivos de Markdown, e configura o arquibo &lt;em&gt;_config.yml&lt;/em&gt;. O site estático está pronto. Agora, para publicação, segue-se os passos do &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;E &lt;em&gt;voilà&lt;/em&gt;, temos nosso site!&lt;/p&gt;
 </description>
         <pubDate>Fri, 01 May 20167 10:00:00 -0300</pubDate>
-        <link>http://waltersmartinsf.github.io/posts/New-site/</link>
-        <guid isPermaLink="true">http://waltersmartinsf.github.io/posts/New-site/</guid>
+        <link>http://localhost:4000/posts/New-site/</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/New-site/</guid>
         
-        <category>front-end</category>
+        <category>Post</category>
         
         
         <category>posts</category>
