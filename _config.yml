@@ -1,0 +1,45 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Walter Martins-Filho
+email: waltersmartinsf@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Aqui vocês poderam encontrar um pouco sobre minha carreira, projetos, textos e meu blog pessoal. Meu nome é Walter Martins Filho, sou astrônomo formado pela Universidade Federal do Rio de Janeiro (2012), mestrado(2015) e doutorado (em processo) pelo Observatório Nacional.
+
+  Here, you will find a little about my career, projects, articles and my personal blog.
+baseurl: "" # the subpath of your site, e.g. /blog
+lang: "br"
+url: "http://waltersmartinsf.github.io" # the base hostname & protocol for your site
+twitter_username: walterwsmf
+github_username:  waltersmartinsf
+# disqus_username:
+
+# Build settings
+markdown: kramdown
+relative_permalinks: false
+permalink: /:categories/:title/
+
+# Posts settings
+future: true
+safe: false
+lsi: false
+excerpt_separator: "\n\n"
+
+
+compress_html:
+  comments: ["<!-- ", " -->"]
+  clippings: all
+  endings: all
+
+
+sass:
+  sass_dir: assets/_sass
+  style: compressed
+
+
+images: '/assets/images'
